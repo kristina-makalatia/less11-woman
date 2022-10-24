@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form class="form-wraper" action="">
+            <div class="input-wraper">
+                <label class="label-item" for="fname">First Name</label>
+                <input class="input-block" type="text" id="fname" name="myfisrtname" placeholder="Enter Your Name.." required>
+            </div>
+           
+            <div class="input-wraper">
+                <label  class="label-item" for="lname">Last Name</label>
+                <input class="input-block" type="text" id="lname" name="mylastname" placeholder="Enter Your LastName.." required>
+            </div>
+           
+            <div class="input-wraper">
+                <label  class="label-item" for="passw">Password</label>
+                <input class="input-block" type="password" id="passw" name="mypassword" placeholder="Enter Your Password.." required>
+            </div>
+
+            <div class="input-wraper">
+                <label for="textarea">Your Review</label>
+                <textarea class="textarea-block" name="mytext" id="textarea" placeholder="Enter Your Message.."></textarea>
+            </div>
+
+            <div class="input-wraper">
+                <label for="mycar">Choose a Car</label>
+                <select class="select" name="car" id="mycar">
+                    <option value="none" selected disabled hidden>Select an Option</option>
+                    <option value="bmw">Bmw</option>
+                    <option value="mersedec"> Mersedec</option>
+                    <option value="audi">Audi</option>        
+                </select>
+            </div>
+
+            <div>
+                <div>
+                    <input type="radio" name="age" id="age1">
+                    <label for="age1">18-30</label>
+                </div>
+                <div>
+                    <input type="radio" name="age" id="age2">
+                    <label for="age2">30-50</label>
+                </div>         
+            </div>
+
+            <div>
+                <input type="checkbox" name="musichobby" id="music">
+                <label for="music">Music</label>
+                <input type="checkbox" name="dancehobby" id="dance">
+                <label for="dance">Dance</label>
+            </div>
+           
+            <button class="btn-submit" type="submit">Send</button>
+        </form>
+    </section>
+    <!-- homework section -->
+    <section>
+        <div class="container-block">
+            <div class="left-block">
+                <h2>Provide You best Best Ui Service</h2>
+                <p>Mobile App Design and Development Studio. You can hire us</p>
+                <div class="blue-block">
+                    <img src="images/waving-hand.svg" alt="">
+                    <p>Wave Me</p>
+                </div>
+            </div>
+
+            <div class="right-block">
+                <img src="images/undraw_pair_programming_njlp.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
